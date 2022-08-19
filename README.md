@@ -1,0 +1,1 @@
+# benddao-frontend-locales
