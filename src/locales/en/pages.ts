@@ -616,7 +616,7 @@ export default {
   'liquidity.title': 'Liquidity',
   'marketplace.title': 'Marketplace',
   'marketplace.buy-nft.title': 'Buy NFT',
-  'marketplace.buy-nft-downpayment.title': 'Down Payment buy NFT',
+  'marketplace.buy-nft-downpayment.title': 'Down Payment NFT Purchase',
   'marketplace.list-for-sale.title': 'List for Sale',
   'marketplace.cancel-listing.title': 'Cancel Listing',
   'marketplace.list-for-sale.subtitle': 'Create a listing for your NFT',
@@ -646,6 +646,8 @@ export default {
   'marketplace.list-for-sale.punk-not-supported': 'Please try again after you wrap your CryptoPunk into an <strong>ERC-721 WrappedPunk.</strong>',
   'marketplace-buy-nft.step1':
     'You have sufficient {{asset}} balance to pay for the purchase.<br> You will <strong>pay {{amount}} {{asset}}</strong> to cover the payment. No {{alternativeAsset}} will be used.',
+  'marketplace-buy-nft.step1-combined':
+    'You have sufficient balance to pay for the purchase.<br> You will <strong>pay {{amount}} {{asset}} and {{alternativeAssetAmount}} {{alternativeAsset}}</strong> to cover the payment.',
   'marketplace.buy-nft.step2':
     'Before you can continue with the purchase, you need to <strong>approve {{assetTicker}} token.</strong> Once approved, you can buy any item in this collection.',
   'marketplace.buy-nft.step2-approve-coll':
@@ -671,7 +673,7 @@ export default {
     "'You have sufficient {{asset}} balance to pay for the purchase.<br> You will <strong>pay {{amount}} {{asset}}</strong> to cover the payment.",
   'marketplace.buy-nft-downpayment.subtitle': 'Purchase the listed NFT by just paying a partial price',
   'marketplace.buy-nft-default.subtitle': 'Purchase the listed NFT by paying the full price',
-  'marketplace.full-buy-nft.title': 'Full Payment buy NFT',
+  'marketplace.full-buy-nft.title': 'Full Payment NFT Purchase',
   'marketplace.buy-nft-downpayment.step3-success':
     '<strong>Congratulations on your new NFT!</strong><br><br> Your have successfully purchased it for <strong>{{amount}} {{assetTicker}}</strong> and borrowed <strong>{{borrowAmount}} {{assetTicker}}.</strong>',
   'marketplace.buy-nft-downpayment.step3-success-disclaimer': 'You now have time to <strong>repay your loan</strong> and obtain full ownership.',
